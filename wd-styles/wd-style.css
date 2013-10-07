@@ -1,0 +1,108 @@
+/** 
+ * @author Alexei Naimushin <alexei.naimushin@gmail.com>
+ * @version 0.1
+ */
+
+/* Основной стиль {body}*/
+#wd-main {
+  background: #f3f3f3;
+  font-family: Georgia, serif;
+  margin: 0 auto;
+  width: 90%;}
+
+/* Стиль хидера */
+#wd-header {
+  background: #0E498B;
+  height: 150px;
+  margin: 30px 0;
+  position: relative;}
+
+/* Стиль логотипа */
+#wd-logo {
+  float: left;
+  height: auto;
+  position: relative;
+  margin-left: -10px;
+  margin-top: -10px;
+  z-index: 10;}
+
+/* Стиль текста для хидера */
+.wd-text {
+  color: #C6C8C7;
+  display: block;
+  float: left;
+  font-size: 50px;
+  font-style: italic;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 35px;}
+
+#wd-content {
+  color: #000000;
+  font-size: 30px;}
+
+#wd-left{
+  color: #0E498B;
+  float: left;}
+
+/* Стиль формы */
+#wd-form {
+  display: block;
+  float: right;}
+
+/* Стиль поля для ввода формы*/
+#wd-form .wd-element {
+  background: #f3f3f3;
+  border: 2px solid #cfcfcf;
+  color: #444444;
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  height: 27px;
+  margin: 7px;
+  margin-bottom: 12px;
+  padding: 5px;
+  position: relative;
+  width: 350px;}
+
+/* Стиль кнопки формы*/
+#wd-form .wd-button {
+  background: #0E498B;
+  border: none;
+  color: #C6C8C7;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  width: 365px;}
+
+#wd-welcome {   
+   background: #0E498B;     
+   height: 300px;
+   left: 50%;
+   margin: 0 auto;
+   margin-left: -225px;
+   margin-top: -150px;
+   overflow: visible;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   width: 500px;}
+
+#wd-welcome-text {
+  color: #C6C8C7;
+  font-size: 70px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;}
+
+#wd-welcome-link {
+  color: #C6C8C7;
+  font-size: 30px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;}
