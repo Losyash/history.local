@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <!-- Заголовок страницы -->
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="wd-styles/wd-style.css" />
+  </head>
+  <!-- Основной блок страницы-->
+  <body id="wd-main"> 
+    <!-- Хидер страницы -->
+    <div id="wd-header">
+      <div id="wd-logo"><img  src="wd-images/wd-logo-middle.png" /></div>
+      <div class="wd-text wd-text-left">Священны факты. Мнение свободно.</div>
+    </div>    
+    <!-- Блок основного контента -->
+    <div id="wd-content">
+      <div id="wd-left">
+        <p>Уважаемые выпускники!</p>
+        <p>2 ноября 2013 года в 17:00 в<br> помещении Театра музыкальной комедии<br> состоится торжественное собрание,<br> посвященное 75-летию исторического факультета.</p>
+        <p>Вход на концерт по театральным билетам.</p>
+        <p>Друзей, коллег, выпускников<br> и всех желающих принять участие во встрече,<br> мы просим пройти регистрацию на этом сайте.</p>
+      </div>
+      <!-- Форма регистрации -->
+      <form id="wd-form" action="register.php" method="post">
+        <input class="wd-element" type="text" name="wd_graduate_firstname" placeholder="Имя" />
+        <input class="wd-element" type="text" name="wd_graduate_patronymic" placeholder="Отчество" />
+        <input class="wd-element" type="text" name="wd_graduate_lastname" placeholder="Фамилия" />
+        <input class="wd-element" type="text" name="wd_graduate_year" placeholder="Год выпуска" />
+        <input class="wd-element" type="text" name="wd_graduate_level" placeholder="Уровень подготовки">
+        <input class="wd-element" type="text" name="wd_graduate_speciality" placeholder="Направление/Специальность" />
+        <input class="wd-element" type="text" name="wd_graduate_workplace" placeholder="Место работы" />
+        <input class="wd-element" type="text" name="wd_graduate_post" placeholder="Должность" />
+        <input class="wd-element" type="text" name="wd_graduate_telephone" placeholder="Телефон" />
+        <input class="wd-element" type="text" name="wd_graduate_email" placeholder="E-mail" />
+        <input class="wd-button" type="submit" value="Зарегистрироваться" />
+      </form>
+    </div>  
+  </body>  
+</html>
